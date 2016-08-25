@@ -29,12 +29,12 @@ function distributeEth(address){
 }
 
 var balances = function() {
-    decimalPlaces=2;
-  console.log("eth.accounts[0]: " + web3.fromWei(eth.getBalance(eth.accounts[0])).toFixed(decimalPlaces) );
-  console.log("eth.accounts[1]: " + web3.fromWei(eth.getBalance(eth.accounts[1])).toFixed(decimalPlaces) );
-  console.log("eth.accounts[2]: " + web3.fromWei(eth.getBalance(eth.accounts[2])).toFixed(decimalPlaces) );
-  console.log("eth.accounts[3]: " + web3.fromWei(eth.getBalance(eth.accounts[3])).toFixed(decimalPlaces) );
-  console.log("eth.accounts[4]: " + web3.fromWei(eth.getBalance(eth.accounts[4])).toFixed(decimalPlaces) );
+    var decimalPlaces = 2;
+    for (var i in eth.accounts) {
+        var acct = eth.accounts[i];
+        var acctBal = web3.fromWei(eth.getBalance(acct).toFixed(decimalPlaces), "ether");
+        console.log("  eth.accounts[" + i + "]: \t" + acct + " \tbalance: " + acctBal + " ether");
+    }
 }
 
 var unlock = function() {
