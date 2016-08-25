@@ -1,5 +1,5 @@
 # Ethereum Environment
-Credit to https://github.com/joeb000 for creating the foundation which you can find at: https://github.com/joeb000/solidity-scripts
+Credit to https://github.com/joeb000 for creating the foundation of this project which you can find at: https://github.com/joeb000/solidity-scripts. I mearly did some clean ups, updates, and clarification. 
 
 
 Some basic solidity projects and shortcuts to getting up and running with smart contracts
