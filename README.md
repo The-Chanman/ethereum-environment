@@ -60,14 +60,3 @@ Either:
 Or to unlock for 2 hours (I usually prefer this route since its just a private sandbox):
 
     personal.unlockAccount(eth.coinbase,"password",7200);
-
-I've taken care of compiling the solidity code and adding the javascript command for deploying it in the ./javascript/deployGlockchain.js
-Copy the code from ./javascript/deployGlockchain.js and paste it into the console to deploy your contract. alternatively you could use the built in loadScript() function and pass in the fully qualified path to the js file as a string (e.g. `loadScript('/Users/joe/Desktop/Deluxe-Pig/solidity-scripts/Setup/javascript/deployGlockchain.js')`)
-
-If you want to manually compile your solidity code then you should either download the solc binary or learn how to use the online compiler: https://ethereum.github.io/browser-solidity/#version=soljson-latest.js
-
-If you ran my js deploy script, the contract instance should be assigned to a var called myContract - test this out by running:
-
-     myContract
-
-If you got a bunch of json data then congrats it worked and your contract was successfully deployed and assigned.
