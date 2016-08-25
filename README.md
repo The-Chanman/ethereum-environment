@@ -10,7 +10,7 @@ Run the following to create a directory to work out of:
     mkdir /Users/$USER/Desktop/Deluxe-Pig
     mkdir /Users/$USER/Desktop/Deluxe-Pig/datadir
     cd /Users/$USER/Desktop/Deluxe-Pig
-    git clone https://github.com/joeb000/solidity-scripts.git
+    git clone https://github.com/The-Chanman/solidity-scripts.git
     
 
 # Setting up private ethereum blockchain sandbox
