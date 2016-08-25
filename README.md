@@ -40,7 +40,7 @@ You can now run javascript functions against your geth node.
 Some fun things to try...
 
     eth.accounts;
-    personal.unlock(eth.accounts[0]);
+    personal.unlockAccount(eth.accounts[0]);
     admin.nodeInfo;
     eth.blockNumber;
     personal.newAccount();
