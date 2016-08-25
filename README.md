@@ -27,14 +27,14 @@ Create a geth account in the newly created datadir (no need for a super secure p
 
 copy address and insert it instead of \<address\> in the below command (also feel free to change the "YourName" to your name)
 
-    geth  --identity  "YourName_node" --datadir /Users/$USER/Desktop/Deluxe-Pig/datadir --autodag --networkid 1001 --mine --minerthreads=1 --etherbase "0x<address>" --rpc --rpccorsdomain="http://localhost:3000" --genesis /Users/$USER/Desktop/Deluxe-Pig/Setup/genesis.json
+    geth  --identity  "YourName_node" --datadir /Users/$USER/Desktop/Deluxe-Pig/datadir --autodag --networkid 1001 --mine --minerthreads=1 --etherbase "0x<address>" --rpc --rpccorsdomain="http://localhost:3000" --testnet
 
 
 after a little automatic setup, it should start mining...
 
 in a new terminal (leave geth running)
 
-     geth attach ipc:/Users/$USER/Desktop/Deluxe-Pig/datadir/geth.ipc
+     geth attach ipc:/Users/$USER/Desktop/Deluxe-Pig/datadir/testnet/geth.ipc
 
 You can now run javascript functions against your geth node.
 Some fun things to try...
