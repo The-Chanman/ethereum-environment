@@ -1,9 +1,10 @@
-# solidity-scripts
+# Ethereum Environment
 some basic solidity projects and shortcuts to getting up and running with smart contracts
 
 This guide assumes you are using a mac with up to date OSX. If you are using linux, you'll have to modify some of the fully qualified file paths (replace `/Users/$USER` with `/home/$USER` on ubuntu). If you are using windows, god help you.
 
-Make sure you have git cli installed. If you aren't sure, run `which git` in a terminal.
+Make sure you have git cli installed. If you aren't sure, run `which git` in a terminal. 
+Note: this will not work if you compiled it from the command line. 
 
 Run the following to create a directory to work out of:
 
