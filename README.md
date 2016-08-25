@@ -1,5 +1,5 @@
 # Ethereum Environment
-some basic solidity projects and shortcuts to getting up and running with smart contracts
+Some basic solidity projects and shortcuts to getting up and running with smart contracts
 
 This guide assumes you are using a mac with up to date OSX. If you are using linux, you'll have to modify some of the fully qualified file paths (replace `/Users/$USER` with `/home/$USER` on ubuntu). If you are using windows, god help you.
 
